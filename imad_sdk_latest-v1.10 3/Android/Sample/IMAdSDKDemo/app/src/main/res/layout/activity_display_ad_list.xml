@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sdk_header"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showInterstitial"
+                android:padding="20dp"
+                android:text="Interstitial"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showPremiumZone"
+                android:padding="20dp"
+                android:text="Premium Zone"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showSmallStandardBanner"
+                android:padding="20dp"
+                android:text="Mobile Leaderboard"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMediumStandaradBanner"
+                android:padding="20dp"
+                android:text="Medium Rectangle"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMediumStandaradCube"
+                android:padding="20dp"
+                android:text="Medium Rectangle (Cube)"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMediumStandaradSlider"
+                android:padding="20dp"
+                android:text="Medium Rectangle (Slider)"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showPull"
+                android:padding="20dp"
+                android:text="Pull"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMobileSpin"
+                android:padding="20dp"
+                android:text="Mobile Spin"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMobileSpinLite"
+                android:padding="20dp"
+                android:text="Mobile Spin Lite"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMobileSpinPlus"
+                android:padding="20dp"
+                android:text="Mobile Spin Plus"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showRevolver"
+                android:padding="20dp"
+                android:text="Revolver"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showSplashCard"
+                android:padding="20dp"
+                android:text="Splash Cards"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showSplashSpin"
+                android:padding="20dp"
+                android:text="Splash Spin Lite"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showMobileCard"
+                android:padding="20dp"
+                android:text="Mobile Cards"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00FFFFFF"
+                android:onClick="showRecoAds"
+                android:padding="20dp"
+                android:text="Reco Ads"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
